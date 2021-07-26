@@ -23,7 +23,7 @@ if (empty($_POST["subject"])) {
     $subject = $_POST["guest"];
 }
 
-// MESSAGE
+// 
 if (empty($_POST["message"])) {
     $errorMSG .= "Message is required ";
 } else {
